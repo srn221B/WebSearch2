@@ -1,0 +1,71 @@
+body{
+    background-color:#fff;
+    padding-left:10%;
+    padding-right:10%;
+    background-image :url('shibata.jpg');
+    background-repeat:repeat-x;
+    background-position: 100% 100%;
+}
+.section a,a:hover:visited:link:visited {
+    color:#192152;
+    font-weight: bolder;
+}
+.section{
+    background-color:#fff;
+    border:double 7px #0f0c0d;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom:20px;
+}
+.section p{
+    padding-left: 20px;
+    text-align:left;
+    color:#4e4848;
+}
+.section u{
+    color:#192152;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.section h2 {
+    position: relative;
+    color: #333333;
+    line-height: 1.4;
+    padding:0.25em 1em;
+}
+
+
+@media(max-width:969px){
+    body{
+        padding-left:initial;
+        padding-right:initial;
+        padding-top:5%;
+        padding-bottom:5%;
+    }
+    h1{
+        text-align: center;
+    }
+    .section img{
+        float:initial;
+    }
+    .section{
+        border:initial;
+        padding-left: 1%;
+        padding-right:1%;
+        padding-bottom:2%;
+    }
+    .section p{
+        padding-left: initial;
+    }
+    .section h2:before {
+        top: 0%;
+        left: -3px;
+        transform: rotate(55deg);
+    }
+    .section h2:after {
+        top: -26%;
+        left: 30px;
+        transform: rotate(120deg);
+    }
+}
